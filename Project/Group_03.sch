@@ -3606,6 +3606,10 @@ Available packages:
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3623,8 +3627,24 @@ Available packages:
 <wire x1="55.88" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="175.26" x2="271.78" y2="175.26" width="0.1524" layer="97"/>
 <wire x1="271.78" y1="175.26" x2="271.78" y2="101.6" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="97"/>
 <wire x1="132.08" y1="101.6" x2="132.08" y2="134.62" width="0.1524" layer="97"/>
+<wire x1="271.78" y1="22.86" x2="271.78" y2="86.36" width="0.1524" layer="97"/>
+<text x="231.14" y="88.9" size="1.778" layer="97">The I2C expander is used to
+connect several BME280
+sensors outside the PCB
+through these connectors.</text>
+<wire x1="271.78" y1="86.36" x2="271.78" y2="101.6" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="101.6" x2="220.98" y2="86.36" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="86.36" x2="220.98" y2="22.86" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="22.86" x2="271.78" y2="22.86" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="86.36" x2="271.78" y2="86.36" width="0.1524" layer="97"/>
+<text x="30.48" y="60.96" size="1.778" layer="97">Analog Temeprature 
+Sensor</text>
+<text x="38.1" y="73.66" size="1.778" layer="97">Light Sensor</text>
+<text x="60.96" y="139.7" size="1.778" layer="97">Power</text>
+<text x="167.64" y="170.18" size="1.778" layer="97">4-Channel I2C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -3740,6 +3760,22 @@ Available packages:
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="149.86" y="162.56" smashed="yes">
 <attribute name="VALUE" x="149.86" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="J2" gate="G$1" x="236.22" y="76.2" smashed="yes">
+<attribute name="VALUE" x="233.68" y="71.374" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="233.68" y="81.788" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J3" gate="G$1" x="236.22" y="60.96" smashed="yes">
+<attribute name="VALUE" x="233.68" y="56.134" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="233.68" y="66.548" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J4" gate="G$1" x="236.22" y="45.72" smashed="yes">
+<attribute name="VALUE" x="233.68" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="233.68" y="51.308" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J5" gate="G$1" x="236.22" y="30.48" smashed="yes">
+<attribute name="VALUE" x="233.68" y="25.654" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="233.68" y="36.068" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -3880,6 +3916,11 @@ Available packages:
 <wire x1="200.66" y1="147.32" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
 <label x="185.42" y="147.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="78.74" x2="254" y2="78.74" width="0.1524" layer="91"/>
+<label x="246.38" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SDA_0" class="0">
 <segment>
@@ -3888,6 +3929,11 @@ Available packages:
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="144.78" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
 <label x="185.42" y="144.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="76.2" x2="254" y2="76.2" width="0.1524" layer="91"/>
+<label x="246.38" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SCL_1" class="0">
@@ -3898,6 +3944,11 @@ Available packages:
 <wire x1="218.44" y1="137.16" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <label x="185.42" y="137.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
+<label x="246.38" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SDA_1" class="0">
 <segment>
@@ -3906,6 +3957,11 @@ Available packages:
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="134.62" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 <label x="185.42" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
+<label x="246.38" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SCL_2" class="0">
@@ -3916,6 +3972,11 @@ Available packages:
 <wire x1="236.22" y1="127" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <label x="185.42" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="48.26" x2="254" y2="48.26" width="0.1524" layer="91"/>
+<label x="246.38" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SDA_2" class="0">
 <segment>
@@ -3924,6 +3985,11 @@ Available packages:
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="124.46" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
 <label x="185.42" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="45.72" x2="254" y2="45.72" width="0.1524" layer="91"/>
+<label x="246.38" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SCL_3" class="0">
@@ -3934,6 +4000,11 @@ Available packages:
 <wire x1="254" y1="114.3" x2="254" y2="119.38" width="0.1524" layer="91"/>
 <label x="185.42" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="33.02" x2="254" y2="33.02" width="0.1524" layer="91"/>
+<label x="246.38" y="33.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="I2C_SDA_3" class="0">
 <segment>
@@ -3942,6 +4013,11 @@ Available packages:
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="111.76" x2="264.16" y2="119.38" width="0.1524" layer="91"/>
 <label x="185.42" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="30.48" x2="254" y2="30.48" width="0.1524" layer="91"/>
+<label x="246.38" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -4033,4 +4109,10 @@ Available packages:
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
