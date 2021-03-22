@@ -5809,8 +5809,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.2" y1="2.5" x2="-2.2" y2="-2.5" width="0.127" layer="51"/>
 <text x="-1.1" y="2.7" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.1" y="-3.1" size="0.4064" layer="27">&gt;VALUE</text>
-<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="2.5" x2="2.2" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-2.2" y1="-2.5" x2="2.2" y2="-2.5" width="0.1524" layer="21"/>
 </package>
 <package name="QFN16">
 <smd name="2" x="-0.8" y="0.2" dx="0.6" dy="0.2" layer="1" rot="R180"/>
@@ -5844,6 +5844,69 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.9" y1="1.3" x2="0.8" y2="1.3" width="0.127" layer="21"/>
 <text x="-1" y="1.65" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.1" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="CY8CKIT-059_TARGET">
+<pad name="12" x="2.54" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="1" x="30.48" y="8.89" drill="1.016" diameter="1.876" shape="square"/>
+<pad name="11" x="5.08" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="10" x="7.62" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="9" x="10.16" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="8" x="12.7" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="7" x="15.24" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="6" x="17.78" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="5" x="20.32" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="4" x="22.86" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="3" x="25.4" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="2" x="27.94" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="13" x="0" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="14" x="-2.54" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="15" x="-5.08" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="17" x="-10.16" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="18" x="-12.7" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="19" x="-15.24" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="20" x="-17.78" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="21" x="-20.32" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="22" x="-22.86" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="23" x="-25.4" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="24" x="-27.94" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="25" x="-30.48" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="26" x="-33.02" y="8.89" drill="1.016" diameter="1.876"/>
+<pad name="27" x="30.48" y="-11.43" drill="1.016" diameter="1.876" shape="square"/>
+<pad name="28" x="27.94" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="29" x="25.4" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="30" x="22.86" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="31" x="20.32" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="32" x="17.78" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="33" x="15.24" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="34" x="12.7" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="35" x="10.16" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="36" x="7.62" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="37" x="5.08" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="38" x="2.54" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="39" x="0" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="40" x="-2.54" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="41" x="-5.08" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="42" x="-7.62" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="43" x="-10.16" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="44" x="-12.7" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="45" x="-15.24" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="46" x="-17.78" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="47" x="-20.32" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="48" x="-22.86" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="49" x="-25.4" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="50" x="-27.94" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="51" x="-30.48" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="52" x="-33.02" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="67" x="-33.02" y="3.81" drill="1.016" diameter="1.876"/>
+<pad name="68" x="-33.02" y="1.27" drill="1.016" diameter="1.876"/>
+<pad name="69" x="-33.02" y="-1.27" drill="1.016" diameter="1.876"/>
+<pad name="70" x="-33.02" y="-3.81" drill="1.016" diameter="1.876"/>
+<pad name="71" x="-33.02" y="-6.35" drill="1.016" diameter="1.876" shape="square"/>
+<wire x1="-35.56" y1="11.43" x2="-35.56" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="-35.56" y1="11.43" x2="33.02" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="33.02" y1="11.43" x2="33.02" y2="-13.97" width="0.1524" layer="21"/>
+<wire x1="33.02" y1="-13.97" x2="-35.56" y2="-13.97" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -5894,6 +5957,70 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-12.7" y1="-25.4" x2="-12.7" y2="25.4" width="0.254" layer="94"/>
 <text x="-5.08" y="25.4" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CY8CKIT-059_TARGET">
+<pin name="GND2" x="22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.0" x="25.4" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.1" x="27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.2" x="30.48" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.3" x="33.02" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.4" x="35.56" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.5" x="38.1" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.6" x="40.64" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.7" x="43.18" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.0" x="45.72" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.1" x="48.26" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.2" x="50.8" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.3" x="53.34" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.4" x="55.88" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.5" x="58.42" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.0" x="60.96" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.1" x="63.5" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.2" x="66.04" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.3" x="68.58" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.4" x="71.12" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.5" x="73.66" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.6" x="76.2" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.7" x="78.74" y="-17.78" length="middle" rot="R90"/>
+<pin name="RST1" x="81.28" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND1" x="83.82" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDD" x="86.36" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDDIO" x="22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="GND3" x="25.4" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.7" x="27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.6" x="30.48" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.5" x="33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.4" x="35.56" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.3" x="38.1" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.2" x="40.64" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.1" x="43.18" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.0" x="45.72" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.0" x="48.26" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.1" x="50.8" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.2" x="53.34" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.3" x="55.88" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.4" x="58.42" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.5" x="60.96" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.6" x="63.5" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.7" x="66.04" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.7" x="68.58" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.6" x="71.12" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.5" x="73.66" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.4" x="76.2" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.3" x="78.74" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.2" x="81.28" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.1" x="83.82" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.0" x="86.36" y="17.78" length="middle" rot="R270"/>
+<pin name="VTARG2" x="2.54" y="5.08" length="middle"/>
+<pin name="GND7" x="2.54" y="2.54" length="middle"/>
+<pin name="RST3" x="2.54" y="0" length="middle"/>
+<pin name="SWDCLK2" x="2.54" y="-2.54" length="middle"/>
+<pin name="SWDIO2" x="2.54" y="-5.08" length="middle"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="88.9" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-12.7" x2="88.9" y2="12.7" width="0.254" layer="94"/>
+<wire x1="88.9" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<text x="43.18" y="22.86" size="1.27" layer="95">CY8CKIT-059 TARGET</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5987,144 +6114,6 @@ damage</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="CY8KIT-059">
-<description>Library for the CY8CKIT-059 kit.&lt;p&gt;&lt;\p&gt;
-
-This library contains symbols and footprints for the CY8CKIT-059 prototyping kit produced by Cypress. It can be useful if you want to solder female headers to your PCB and then plug in the kit.</description>
-<packages>
-<package name="CY8CKIT-059_TARGET">
-<pad name="12" x="2.54" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="1" x="30.48" y="8.89" drill="1.016" diameter="1.876" shape="square"/>
-<pad name="11" x="5.08" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="10" x="7.62" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="9" x="10.16" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="8" x="12.7" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="7" x="15.24" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="6" x="17.78" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="5" x="20.32" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="4" x="22.86" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="3" x="25.4" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="2" x="27.94" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="13" x="0" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="14" x="-2.54" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="15" x="-5.08" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="16" x="-7.62" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="17" x="-10.16" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="18" x="-12.7" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="19" x="-15.24" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="20" x="-17.78" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="21" x="-20.32" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="22" x="-22.86" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="23" x="-25.4" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="24" x="-27.94" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="25" x="-30.48" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="26" x="-33.02" y="8.89" drill="1.016" diameter="1.876"/>
-<pad name="27" x="30.48" y="-11.43" drill="1.016" diameter="1.876" shape="square"/>
-<pad name="28" x="27.94" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="29" x="25.4" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="30" x="22.86" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="31" x="20.32" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="32" x="17.78" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="33" x="15.24" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="34" x="12.7" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="35" x="10.16" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="36" x="7.62" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="37" x="5.08" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="38" x="2.54" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="39" x="0" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="40" x="-2.54" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="41" x="-5.08" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="42" x="-7.62" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="43" x="-10.16" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="44" x="-12.7" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="45" x="-15.24" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="46" x="-17.78" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="47" x="-20.32" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="48" x="-22.86" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="49" x="-25.4" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="50" x="-27.94" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="51" x="-30.48" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="52" x="-33.02" y="-11.43" drill="1.016" diameter="1.876"/>
-<pad name="67" x="-33.02" y="3.81" drill="1.016" diameter="1.876"/>
-<pad name="68" x="-33.02" y="1.27" drill="1.016" diameter="1.876"/>
-<pad name="69" x="-33.02" y="-1.27" drill="1.016" diameter="1.876"/>
-<pad name="70" x="-33.02" y="-3.81" drill="1.016" diameter="1.876"/>
-<pad name="71" x="-33.02" y="-6.35" drill="1.016" diameter="1.876" shape="square"/>
-<wire x1="-35.56" y1="11.43" x2="-35.56" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="-35.56" y1="11.43" x2="33.02" y2="11.43" width="0.127" layer="21"/>
-<wire x1="33.02" y1="11.43" x2="33.02" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="33.02" y1="-13.97" x2="-35.56" y2="-13.97" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CY8CKIT-059_TARGET">
-<pin name="GND2" x="22.86" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.0" x="25.4" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.1" x="27.94" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.2" x="30.48" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.3" x="33.02" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.4" x="35.56" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.5" x="38.1" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.6" x="40.64" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.7" x="43.18" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.0" x="45.72" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.1" x="48.26" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.2" x="50.8" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.3" x="53.34" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.4" x="55.88" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.5" x="58.42" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.0" x="60.96" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.1" x="63.5" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.2" x="66.04" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.3" x="68.58" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.4" x="71.12" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.5" x="73.66" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.6" x="76.2" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.7" x="78.74" y="-17.78" length="middle" rot="R90"/>
-<pin name="RST1" x="81.28" y="-17.78" length="middle" rot="R90"/>
-<pin name="GND1" x="83.82" y="-17.78" length="middle" rot="R90"/>
-<pin name="VDD" x="86.36" y="-17.78" length="middle" rot="R90"/>
-<pin name="VDDIO" x="22.86" y="17.78" length="middle" rot="R270"/>
-<pin name="GND3" x="25.4" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.7" x="27.94" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.6" x="30.48" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.5" x="33.02" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.4" x="35.56" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.3" x="38.1" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.2" x="40.64" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.1" x="43.18" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.0" x="45.72" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.0" x="48.26" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.1" x="50.8" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.2" x="53.34" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.3" x="55.88" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.4" x="58.42" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.5" x="60.96" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.6" x="63.5" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.7" x="66.04" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.7" x="68.58" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.6" x="71.12" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.5" x="73.66" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.4" x="76.2" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.3" x="78.74" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.2" x="81.28" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.1" x="83.82" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.0" x="86.36" y="17.78" length="middle" rot="R270"/>
-<pin name="VTARG2" x="2.54" y="5.08" length="middle"/>
-<pin name="GND7" x="2.54" y="2.54" length="middle"/>
-<pin name="RST3" x="2.54" y="0" length="middle"/>
-<pin name="SWDCLK2" x="2.54" y="-2.54" length="middle"/>
-<pin name="SWDIO2" x="2.54" y="-5.08" length="middle"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="88.9" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="88.9" y1="-12.7" x2="88.9" y2="12.7" width="0.254" layer="94"/>
-<wire x1="88.9" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<text x="43.18" y="22.86" size="1.27" layer="95">CY8CKIT-059 TARGET</text>
-</symbol>
-</symbols>
-<devicesets>
 <deviceset name="CY8CKIT-059_TARGET">
 <description>&lt;b&gt;CY8CKIT-059 Target &lt;/b&gt;
 &lt;p&gt; This device exposes the pins of the target section of the CY8CKIT-059, including the programming section, that must be connected to the KitProg in order to program the target micro-controller.</description>
@@ -6398,10 +6387,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
-<part name="U$1" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET" device=""/>
+<part name="U$1" library="Group_03_Library" deviceset="CY8CKIT-059_TARGET" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value=" "/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value=" 330"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -6688,6 +6677,37 @@ Sensor</text>
 <pinref part="U$1" gate="G$1" pin="VDDIO"/>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="165.1" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="165.1" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="254" y1="165.1" x2="264.16" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="165.1" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="162.56" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
+<junction x="210.82" y="165.1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="152.4" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
+<junction x="218.44" y="165.1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="152.4" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
+<junction x="228.6" y="165.1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="142.24" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
+<junction x="236.22" y="165.1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="142.24" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
+<junction x="246.38" y="165.1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="254" y1="129.54" x2="254" y2="165.1" width="0.1524" layer="91"/>
+<junction x="254" y="165.1"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -6894,39 +6914,6 @@ Sensor</text>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="30.48" x2="254" y2="30.48" width="0.1524" layer="91"/>
 <label x="246.38" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="165.1" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="165.1" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="165.1" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="165.1" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="254" y1="165.1" x2="264.16" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="165.1" x2="264.16" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="210.82" y1="162.56" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
-<junction x="210.82" y="165.1"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="152.4" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
-<junction x="218.44" y="165.1"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="228.6" y1="152.4" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<junction x="228.6" y="165.1"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="142.24" x2="236.22" y2="165.1" width="0.1524" layer="91"/>
-<junction x="236.22" y="165.1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="142.24" x2="246.38" y2="165.1" width="0.1524" layer="91"/>
-<junction x="246.38" y="165.1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="254" y1="129.54" x2="254" y2="165.1" width="0.1524" layer="91"/>
-<junction x="254" y="165.1"/>
 </segment>
 </net>
 <net name="I2C_A0" class="0">
