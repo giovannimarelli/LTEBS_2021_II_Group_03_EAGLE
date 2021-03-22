@@ -6390,7 +6390,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$1" library="Group_03_Library" deviceset="CY8CKIT-059_TARGET" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-BLUE" device="1206" value="BLUE"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value=" "/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value=" 330"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
