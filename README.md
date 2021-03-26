@@ -9,3 +9,5 @@ followed the table specs.
 Inside the .brd file, Power Jack device looks like it exits the pcb: we intentionally placed it there folowing some examples online. 
 
 All traces are of 10 mils, as you asked in the assignment document. However, due to the small dimension of the MUX, the design rules generated errors due to the clearance of the traces connecting the pads to the other pins. To overcome this problem, we decided to convert the width of all the traces connected to the MUX to 8 mils.
+
+We added Silkscreen references for all SMD components, respecting manufacturer's rules of clearance and distance from the pads (8 mil from any exposed copper part).
